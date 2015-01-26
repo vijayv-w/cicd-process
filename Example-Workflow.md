@@ -15,16 +15,16 @@
 The following workflow provides an example and a starting point for development teams to reference.  Teams should refine the following process so that it meets their specific needs and goals.
 
 ### Environments
-For this workflow, the process assumes there are 3 enviroments for testing.  The environment descriptions are included below.
+For this workflow, the process assumes there are 3 environments for testing.  The environment descriptions are included below.
 
-* Local - Development environment utilized while creating or fixing a feature
-* Build - Envionrment where PR builder is ran and where the build artifact is created. (Build Server)
+* Local - Development environment utilized while creating or fixing a feature.
+* Build - Environment where PR builder is run and where the build artifact is created (Build Server).
 * Staging - Test environment intended for smoke testing.
-* PreProd - Environment which enables testing against production dependencies. In this process, its designed for regression testing.
+* PreProd - Environment which enables testing against production dependencies. In this process, it's designed for regression testing.
 * Production - Live environment where all users can leverage the product.
 
 ### Branching Strategy
-A clear and well understood branching strategy is a critical component of a CICD process. One valid strategy is **feature branches** based on [Github Flow](https://guides.github.com/introduction/flow/index.html).  Feature branches assumes that master or your production branch is always production ready.  Branches are based on functional features or bug fixes.
+A clear and well understood branching strategy is a critical component of a CICD process. One valid strategy is **feature branches** based on [Github Flow](https://guides.github.com/introduction/flow/index.html).  Feature branches assume that master or your production branch is always production ready.  Branches are based on functional features or bug fixes.
 
 * **Goal:**
     * Clearly communicate the state of a feature or fix as it pertains to managing code
@@ -42,6 +42,7 @@ As in any development workflow, the later an issue is found in the process the m
 
 * **Manual Process:**
     * Peer Review(s) once PR builder is successful
+    * UX/UI review by design/dev hybrid (either by checking out work locally for interactive features, or via screen shots posted to the Pull-Request)
     * Fixes and enhancements completed per feedback in Pull-Request
     * Start CICD process once Pull-Request is approved by team for testing
 
