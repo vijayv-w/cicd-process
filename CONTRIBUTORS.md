@@ -19,3 +19,6 @@
 * **Andrew Yurisich**
   * Co-Maintainer
   * Quality Engineering Perspective
+
+* **Glynnis Ritchie**
+  * Design/Front End Perspective
