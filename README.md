@@ -7,6 +7,7 @@
 
 ##The Goal
 
+sfdljsfdj
  > "The ability to deliver features **quickly** to production with high **reliability**, **frequency** and **quality**"
 
 ##Definitions
